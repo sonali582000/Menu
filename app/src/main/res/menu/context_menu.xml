@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option1"
+        android:icon="@drawable/ic_baseline_location_searching_24"
+        app:showAsAction="withText"
+        android:title="Search"/>
+    <item
+        android:id="@+id/option2"
+        android:icon="@drawable/ic_baseline_content_copy_24"
+        app:showAsAction="never"
+        android:title="Copy"/>
+</menu>
